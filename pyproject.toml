@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "clean-architecture"
+name = "to-do"
 version = "0.1.0"
 description = "Playground"
 authors = ["Desireé Torrente Ramírez <desiree.torrente@eventbrite.com>"]
 readme = "README.md"
+packages = [
+    { include = "to_do", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "~3.11"
